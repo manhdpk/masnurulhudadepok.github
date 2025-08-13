@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
+import Kepala from "@/assets/Pak dayat smbtn.jpg";
 const PrincipalGreeting = () => {
   return (
     <section className="container mx-auto py-12">
@@ -7,7 +7,7 @@ const PrincipalGreeting = () => {
         <div className="md:col-span-1">
           <h2 className="text-2xl font-bold mb-2">Sambutan Kepala Madrasah</h2>
           <img
-            src="src\assets\Pak dayat smbtn.jpg"
+            src={Kepala}
             alt="Kepala Sekolah MA Nurul Huda"
             className="w-340 h-320"
           />
