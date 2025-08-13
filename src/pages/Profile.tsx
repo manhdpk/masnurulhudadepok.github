@@ -1,18 +1,4 @@
 import { useState } from "react";
-import SEO from "@/components/SEO";
-import img1 from "@/assets/Pak dayat.jpg";
-import img2 from "@/assets/Bunda.png";
-import img3 from "@/assets/Dio.png";
-import img4 from "@/assets/Arul.png";
-import img5 from "@/assets/Amel.png";
-import img6 from "@/assets/Faris.png";
-import img7 from "@/assets/Novi.png";
-import img8 from "@/assets/Nisa.png";
-import img9 from "@/assets/Bu Andar.png";
-import img10 from "@/assets/Tia.png";
-import img11 from "@/assets/Pak Heru.png";
-import img12 from "@/assets/Mediana.png";
-import img13 from "@/assets/Guru.jpg";
 
 interface Member {
   jabatan: string;
@@ -24,67 +10,67 @@ const struktur: Member[] = [
   {
     jabatan: "Kepala Madrasah",
     nama: "Dayat, S.Ag",
-    foto: img1,
+    foto: "src/assets/Pak dayat.jpg",
   },
   {
     jabatan: "Wakil Kepala Madrasah",
     nama: "Ika Listyaningtyas, S.P",
-    foto: img2,
+    foto: "src/assets/Bunda.png",
   },
   {
     jabatan: "Kepala Tata Usaha",
     nama: "Sugio Utomo S.Pd",
-    foto: img3,
+    foto: "src/assets/Dio.png",
   },
   {
     jabatan: "Staf Kurikulum",
     nama: "Nurul Zaman, S.Pd",
-    foto: img4,
+    foto: "src/assets/Arul.png",
   },
   {
     jabatan: "Staf Kesiswaan",
     nama: "Amelia, S.Pd",
-    foto: img5,
+    foto: "src/assets/Amel.png",
   },
   {
     jabatan: "Staf Administrasi",
     nama: "Muhammad Fariz Alfiansah, S.Pd",
-    foto: img6,
+    foto: "src/assets/Faris.png",
   },
   {
     jabatan: "Staf Keuangan",
     nama: "Novianti, S.Pd",
-    foto: img7,
+    foto: "src/assets/Novi.png",
   },
   {
     jabatan: "Staf humas dan Media",
     nama: "Siti Anisa, S.Pd",
-    foto: img8,
+    foto: "src/assets/Nisa.png",
   },
   {
     jabatan: "Wali Kelas X",
     nama: "Andarwarti Purna Indiah, S.Pd",
-    foto: img9,
+    foto: "src/assets/Bu Andar.png",
   },
   {
     jabatan: "Wali Kelas XI",
     nama: "Tia Mutiara, S.Pd",
-    foto: img10,
+    foto: "src/assets/Tia.png",
   },
   {
     jabatan: "Wali Kelas XII",
     nama: "Heru Hermawan, S.Ag",
-    foto: img11,
+    foto: "src/assets/Pak Heru.png",
   },
   {
     jabatan: "Staf Perpustakaan",
     nama: "Mediana Tri Maria Ulfah, S.Pd",
-    foto: img12,
+    foto: "src/assets/Mediana.png",
   },
   {
     jabatan: "Dewan Guru",
     nama: "Pembina dan Dewan Guru MA Nurul Huda",
-    foto: img13,
+    foto: "src/assets/Guru.jpg",
   },
 ];
 
