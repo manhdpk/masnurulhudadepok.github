@@ -11,7 +11,7 @@ const struktur: Member[] = [
   {
     jabatan: "Kepala Madrasah",
     nama: "Dayat, S.Ag",
-    foto: "@/assets/Pak dayat.jpg",
+    foto: "../../assets/Pak dayat.jpg",
   },
   {
     jabatan: "Wakil Kepala Madrasah",
