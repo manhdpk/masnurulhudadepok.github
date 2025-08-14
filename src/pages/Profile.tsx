@@ -1,6 +1,6 @@
 import SEO from "@/components/SEO";
 import { useState } from "react";
-import { img1 } from "@/assets/Pak dayat.jpg";
+import img1 from "@/assets/Pak dayat.jpg";
 
 interface Member {
   jabatan: string;
@@ -12,7 +12,7 @@ const struktur: Member[] = [
   {
     jabatan: "Kepala Madrasah",
     nama: "Dayat, S.Ag",
-    foto: { img1 },
+    foto: img1,
   },
   {
     jabatan: "Wakil Kepala Madrasah",
