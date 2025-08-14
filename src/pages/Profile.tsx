@@ -1,18 +1,18 @@
 import SEO from "@/components/SEO";
 import { useState } from "react";
 import img1 from "@/assets/Pak dayat.jpg";
-import img2 from "@/assets/Bunda.png
-import img3 from "@/assets/Dio.png
-import img4 from "@/assets/Arul.png
-import img5 from "@/assets/Amel.png
-import img6 from "@/assets/Faris.png
-import img7 from "@/assets/Novi.png
-import img8 from "@/assets/Nisa.png
-import img9 from "@/assets/Bu Andar.png
-import img10 from "@/assets/tia.png
-import img11 from "@/assets/Pak Heru.png
-import img12 from "@/assets/Mediana.png
-import img13 from "@/assets/Guru.jpg
+import img2 from "@/assets/Bunda.png";
+import img3 from "@/assets/Dio.png";
+import img4 from "@/assets/Arul.png";
+import img5 from "@/assets/Amel.png";
+import img6 from "@/assets/Faris.png";
+import img7 from "@/assets/Novi.png";
+import img8 from "@/assets/Nisa.png";
+import img9 from "@/assets/Bu Andar.png";
+import img10 from "@/assets/tia.png";
+import img11 from "@/assets/Pak Heru.png";
+import img12 from "@/assets/Mediana.png";
+import img13 from "@/assets/Guru.jpg";
 //import imgdst from "@/assets/foto baru//
 
 interface Member {
@@ -178,7 +178,7 @@ export default function Profile() {
         >
           <div
             className="bg-white rounded-lg p-6 max-w-sm w-full text-center"
-            onClick={(e) => e.stopPropagation()}
+            onClick={(e: { stopPropagation: () => any }) => e.stopPropagation()}
           >
             <img
               src={selected.foto}
