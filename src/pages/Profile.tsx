@@ -12,7 +12,7 @@ import img9 from "@/assets/Bu Andar.png";
 import img10 from "@/assets/Tia.png";
 import img11 from "@/assets/Pak Heru.png";
 import img12 from "@/assets/Mediana.png";
-import img13 from "@/assets/Guru.jpg";
+import img13 from "@/assets/Guru.png";
 //import imgdst from "@/assets/foto baru//
 
 interface Member {
