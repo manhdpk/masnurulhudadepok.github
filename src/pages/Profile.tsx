@@ -9,7 +9,7 @@ import img6 from "@/assets/Faris.png";
 import img7 from "@/assets/Novi.png";
 import img8 from "@/assets/Nisa.png";
 import img9 from "@/assets/Bu Andar.png";
-import img10 from "@/assets/tia.png";
+import img10 from "@/assets/Tia.png";
 import img11 from "@/assets/Pak Heru.png";
 import img12 from "@/assets/Mediana.png";
 import img13 from "@/assets/Guru.jpg";
