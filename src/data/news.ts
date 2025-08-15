@@ -3,7 +3,7 @@ import img2 from "@/assets/berita/pramuka.jpg";
 
 export const news = [
   {
-    id: 1,
+    id: 2,
     title:
       "Juara Program LEVEL UP AI, Dorong Kreativitas dan Literasi AI Generasi Muda",
     excerpt:
@@ -16,14 +16,24 @@ Dengan adanya program seperti LEVEL UP AI, diharapkan semakin banyak generasi mu
     `,
   },
   {
-    id: 2,
-    title: "Kegiatan P5RA: Aksi Peduli Lingkungan",
+    id: 1,
+    title: "MA Nurul Huda Gelar Upacara Peringatan Hari Pramuka ke-64",
     excerpt:
-      "Siswa menanam 200 bibit pohon di lingkungan sekolah sebagai bagian dari proyek P5RA.",
+      "MA Nurul Huda menyelenggarakan Upacara Peringatan Hari Pramuka ke-64 dengan khidmat di halaman sekolah pada Kamis pagi. Kegiatan ini diikuti oleh seluruh guru, tenaga kependidikan, dan siswa, dengan pembina upacara Kepala Madrasah.",
     image: img2,
     content: `
-      Sebagai bagian dari proyek Penguatan Profil Pelajar Pancasila dan Rahmatan Lil Alamin (P5RA),
-      para siswa menanam lebih dari 200 bibit pohon di lingkungan sekitar madrasah.
+     Depok, 14 Agustus 2025 – MA Nurul Huda menyelenggarakan Upacara Peringatan Hari Pramuka ke-64 dengan khidmat di halaman sekolah pada Kamis pagi. Kegiatan ini diikuti oleh seluruh guru, tenaga kependidikan, dan siswa, dengan pembina upacara Kepala Madrasah.
+Dalam amanatnya, pembina upacara menyampaikan pentingnya nilai-nilai kepramukaan seperti kedisiplinan, kemandirian, kerja sama, dan kepedulian sosial. Beliau juga mengajak seluruh anggota Pramuka untuk terus meneladani semangat Dasa Dharma dan Tri Satya dalam kehidupan sehari-hari.
+Upacara dimulai tepat pukul 07.00 WIB dengan susunan acara:
+1. Pengibaran Bendera Merah Putih
+2. Mengheningkan cipta
+3. Pembacaan Pembukaan UUD 1945
+4. Pembacaan Dasa Dharma Pramuka
+5. Amanat pembina upacara
+6. Pembacaan doa
+Selain sebagai peringatan, kegiatan ini menjadi momen untuk mempererat persaudaraan antaranggota Pramuka dan memperkuat karakter peserta didik.
+“Semoga semangat Hari Pramuka ini menjadi pendorong bagi kita untuk terus berkarya dan mengabdi bagi bangsa, agama, dan negara,” ujar Kepala Madrasah.
+MA Nurul Huda berharap semangat yang ditanamkan melalui kegiatan ini dapat membentuk generasi muda yang tangguh, berkarakter, dan siap menghadapi tantangan zaman.
     `,
   },
 ];
