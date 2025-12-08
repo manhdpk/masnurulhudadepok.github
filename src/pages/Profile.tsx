@@ -3,7 +3,7 @@ import { useState } from "react";
 import img1 from "@/assets/Pak dayat.jpg";
 import img2 from "@/assets/Bunda.png";
 import img3 from "@/assets/Dio.png";
-import img4 from "@/assets/Arul.png";
+import img4 from "@/assets/Amel.png";
 import img5 from "@/assets/Amel.png";
 import img6 from "@/assets/Faris.png";
 import img7 from "@/assets/Novi.png";
@@ -39,7 +39,7 @@ const struktur: Member[] = [
   },
   {
     jabatan: "Staf Kurikulum",
-    nama: "Nurul Zaman, S.Pd",
+    nama: "Amelia, S.Pd",
     foto: img4,
   },
   {
