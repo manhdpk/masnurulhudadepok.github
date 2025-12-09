@@ -14,12 +14,12 @@ import RDMsukses from "@/assets/RDM sukses.png";
 //        Mohon Maaf, RDM Belum dapat diakses
 //      </p>
 //      <Link
- //       to="/"
- //       className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
-  //    >
-    //    ⬅️ Kembali ke Beranda
-  //    </Link>
-  //  </div>
+//       to="/"
+//       className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
+//    >
+//    ⬅️ Kembali ke Beranda
+//    </Link>
+//  </div>
 //  );
 //};
 
@@ -32,12 +32,10 @@ const UserPage = () => {
         alt="Klik Akses RDM Sekarang"
         className="rounded-lg shadow-md max-w-lg mb-6"
       />
-      <p className="text-xl text-gray-700 mb-6">
-        Akses RDM Sekarang
-      </p>
+      <p className="text-xl text-gray-700 mb-6">Akses RDM Sekarang</p>
 
       <a
-        href="http://0.tcp.ap.ngrok.io:11955/"
+        href="http://0.tcp.ap.ngrok.io:19430/"
         target="_blank"
         rel="noopener noreferrer"
         className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700"
@@ -49,4 +47,3 @@ const UserPage = () => {
 };
 
 export default UserPage;
-
